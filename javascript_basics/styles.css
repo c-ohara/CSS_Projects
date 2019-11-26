@@ -1,0 +1,82 @@
+/* elements: li, p, ul li,
+classes: example, subtitle
+/* CSS Reset settings here. */
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #bfd7ea;
+    font-family: "helvetica neue", arial, verdana, sans-serif;   
+}
+#back {
+    background-color: #12355b;
+    min-height: 730;
+    width: 1230px;
+    margin: 0px auto;
+    padding: 15px;
+}
+#header {
+    background-color: #d72638;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+#menu {
+    background-color: #087e8b;
+    vertical-align: top;
+    width: auto;
+    margin-right: 20px;
+    padding: 20px 20px 20px 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+#content {
+    background-color: #0c1821;
+    min-height: 500px;
+    width: 925px;
+    padding: 20px 20px 20px 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+#footer {
+    background-color: #5c6672;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.subtitle {
+    color: #52dee5;
+    text-decoration: underline;
+}
+.example {
+    color: #6c92ff;
+}
+#menu ul li{
+    color: #52dee5;
+    text-decoration: underline;
+}
+ul ul{
+    text-indent: 10px;
+    list-style-position: inside;
+}
+#header h1 {
+    position: absolute;
+    vertical-align: middle;
+    font-size: 36px;
+    margin: 19px 0px;
+    text-indent: 10px;
+}
+#content h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+#content ul li {
+    margin: 10px 0px;
+}
+#footer p {
+    position: absolute;
+    vertical-align: middle;
+    margin: 10px 0px;
+    text-indent: 10px;
+}

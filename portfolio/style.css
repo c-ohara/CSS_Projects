@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+#title {
+    background-color: white;
+    min-height: 40px;
+    width: 1100px;
+    padding: 20px 30px;
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+    #title h1 {
+        font-family: "Comic Sans MS", Helvetica, sans-serif; /* Why, though?*/
+        font-weight: bold;
+        font-size: 48px;
+        margin: 30px 320px 30px 0px;
+        display: inline;
+        vertical-align: middle;
+    }
+    #title h2 {
+        font-size: 28px;
+        margin: 13px;
+        display: inline;
+        vertical-align: middle;
+    }
+
+#container {
+    background-image: radial-gradient(#6f5964,#19090d);;
+    min-height: 900px;
+    width: 1160px;
+    padding: 30px 0px;
+    border: 1px solid black;
+}
+    #container #profile {
+        margin-bottom: 30px;
+    }
+        #container #profile img {
+            display: inline-block;
+            height: 300px;
+            margin: 0px 30px;
+            vertical-align: top;
+            border: 10px solid grey;
+        }
+        #container #profile .bio {
+            background-color: white;
+            display: inline-block;
+            min-height: 320px;
+            width: 589px;
+            vertical-align: top;
+        }
+            #container #profile .bio p{
+                margin: 20px;
+                font-size: 16px;
+            }
+        
+        #container .content .subcontent {
+            background-color: white;
+            min-height: 700px;
+            width: 343px;
+            margin-left: 30px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+            #container .content .subcontent .info {
+                text-align: justify;
+                min-height: 150px;
+                margin-top: 10px;
+            }
+
+        #container .content img {
+            width: 55px;
+            margin: 10px 5px;
+        }
+
+        #container .content img.webpage {
+            margin: 0px;
+            width: 343px;
+            display: inline-block;
+        }
+
+        #container .content p {
+            width: 343px;
+            text-align: center;
+        }
+
+        #container .content a {
+            display: inline-block;
+            text-align: center;
+            margin: auto;
+            width: auto;
+            background-color: green;
+            border: 2px solid black;
+            border-radius: 15px;
+            font-size: 24px;
+            min-height: 24px;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+#footer {
+    background-color: white;
+    min-height: 60px;
+    width: 1100px;
+    padding: 10px 30px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+a {
+    color: black;
+}
+
+    #footer img {
+        width: 24px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.sub {
+    background-image: linear-gradient(#b2b1b5,#8c8a97);
+    min-height: 24px;
+    padding: 9px;
+    vertical-align: middle;
+    font-size: 24px;
+    color: white;
+}
